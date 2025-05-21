@@ -52,29 +52,32 @@ main{
     padding: 10px;
     border: 1px solid #1f2937;
     background: white;
-    border-radius: 20px;
+    border-radius: 30px;
+    text-align: center;
 }
 .produto img{ 
     width: 100%;
     height: 150px;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     object-fit: cover;
 }
 .preco{
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 30px;
     color: #1f2937;
+    text-align: center;
     font-size: 1.7em;
     
 }
 button{
     background: #D9D2D0;
     border-radius: 30px;
-    margin-top: 30px;
     padding: 15px;
     cursor: pointer;
-    transition: 0.2s;
+    display: block;
+    margin: 25px auto 0 auto; /* cima, direita, baixo, esquerda */
+    transition: 0.2s; /* Transição suave */
 }
 button:hover{
     box-shadow: 0px 0px 8px #ffffff; /* Adiciona uma sombra branca */
