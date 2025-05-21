@@ -1,0 +1,89 @@
+/*resete basico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e6e6e6;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background: #1f2937;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:1.4em;
+
+}
+/* HOVER é uma pseudo-classe que realiza um efeito ao passar o mouse  */
+header nav ul li a:hover{
+    text-decoration: underline 5px greenyellow;
+}
+#conteudo{
+    display: grid;
+    grid-template-columns: 2fr 200px;
+}
+main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.produto{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1f2937;
+    background: white;
+    border-radius: 20px;
+}
+.produto img{ 
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.preco{
+    font-weight: 700;
+    margin-top: 50px;
+    color: #1f2937;
+    font-size: 1.7em;
+    
+}
+button{
+    background: #D9D2D0;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    box-shadow: 0px 0px 8px #ffffff; /* Adiciona uma sombra branca */
+    transform: scale(1.05); /* Efeito de zoom leve */
+    background: #1F2937;
+    color:#fff;
+}
+    
+    
+aside{
+
+}
