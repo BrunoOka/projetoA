@@ -1,0 +1,64 @@
+body{
+    background: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background: #1f2937;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+}
+header nav ul li a{
+      color: #bdbdbd; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Permite manipular como bloco */
+    transition: 0.2s; /* Transição suave para hover */
+    font-size: 1.4em;
+
+}
+/* HOVER é uma pseudo-classe que realiza um efeito ao passar o mouse  */
+header nav ul li a:hover{
+ color: white; /* Muda cor ao passar o mouse */
+  transform: scale(1.05); /* Efeito de zoom leve */
+}
+#conteudo{
+    display: grid;
+    grid-template-columns: 2fr 200px;
+}
+main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+
+/* ESTILIZAÇÃO GAME */
+
+h1{
+    font-size:40px;
+    color: crimson;
+    text-align: center;
+
+}
+
+p {
+    background-image: linear-gradient(to right,black,yellow);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}

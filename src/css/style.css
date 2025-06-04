@@ -134,6 +134,15 @@ footer{
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
 /* responsividade */
 @media(max-width:768px ){
     header nav ul{
